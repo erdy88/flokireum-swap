@@ -27,7 +27,7 @@ export const colors = {
   pink100: "#FFD9E4",
   pink200: "#FBA4C0",
   pink300: "#FF6FA3",
-  pink400: "#FB118E",
+  pink400: "#ffe161",
   pink500: "#C41969",
   pink600: "#8C0F49",
   pink700: "#55072A",
@@ -103,7 +103,7 @@ const commonTheme = {
 
   chain_1: colors.networkEthereum,
   chain_3: colors.yellow400,
-  chain_4: colors.goldVibrant,
+  chain_4: colors.pink400,
   chain_5: colors.green400,
   chain_10: colors.networkOptimism,
   chain_137: colors.networkPolygon,
@@ -193,14 +193,14 @@ export const lightTheme: Theme = {
   textSecondary: colors.gray400,
   textTertiary: colors.gray300,
 
-  accentAction: colors.goldVibrant,
+  accentAction: colors.pink400,
   accentActive: colors.blue400,
   accentSuccess: colors.green300,
   accentWarning: colors.gold200,
   accentFailure: colors.red400,
   accentCritical: colors.red400,
 
-  accentActionSoft: opacify(24, colors.goldVibrant),
+  accentActionSoft: opacify(24, colors.pink400),
   accentActiveSoft: opacify(24, colors.blue400),
   accentSuccessSoft: opacify(24, colors.green300),
   accentWarningSoft: opacify(24, colors.gold200),
@@ -219,7 +219,7 @@ export const lightTheme: Theme = {
   shallowShadow:
     "6px 6px 10px rgba(51, 53, 72, 0.01), 2px 2px 6px rgba(51, 53, 72, 0.02), 1px 2px 2px rgba(51, 53, 72, 0.02);",
 
-  networkDefaultShadow: `0px 40px 120px ${opacify(12, colors.goldVibrant)}`,
+  networkDefaultShadow: `0px 40px 120px ${opacify(12, colors.pink400)}`,
 
   stateOverlayHover: opacify(8, colors.gray300),
   stateOverlayPressed: opacify(24, colors.gray200),
